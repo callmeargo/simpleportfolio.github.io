@@ -1,0 +1,228 @@
+@font-face {
+	font-family: "codefont";
+	src:  url('../fonts/caming/web fonts/camingocode_regular_macroman/CamingoCode-Regular-webfont.ttf');
+}
+
+body {
+	overflow-x: hidden;
+}
+ .jumb {
+ 	min-height: 100vh !important;
+ 	background: #EEE5E9;
+ 	padding: 20px;
+ }
+.jumbnav {
+	padding: 10px;
+}
+ .jumbnav ul li a {
+ 	color: #232020;
+ 	font-weight: bold;
+ }
+
+
+/*kotak jumbotron*/
+
+
+
+/*about*/
+.aboutsosmed {
+	line-height: 80px;
+	display: flex;
+	flex-direction: column;
+}
+.about .aboutsosmed a i{
+	color: #232020;
+	font-size: 23px;
+}
+.about {
+		display: flex;
+	}
+/*end about*/
+
+/*Porto*/
+.porttext {
+	font-size: 30px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	color: #232020;
+}
+.flat {
+	color: #232020;
+}
+.flat.active {
+	background: #232020 !important;
+	color: white !important;
+	font-weight: bold;
+	border-radius: 0 !important;
+}
+.bungsporto {
+	background: #EEE5E9;
+	margin-top: 50px;
+	padding-top: 40px;
+}
+.portocard {
+	background: #232020;
+	color: white;
+}
+.portocard div i {
+	font-size: 25px;
+}
+.portocard div h4 {
+	font-size: 28px;
+	font-weight: bold;
+}
+.portocard div p {
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 15px;
+}
+.card {
+	/*border: 2px solid red !important;*/
+	/*background: #232020;*/
+}
+
+/*end Porto*/
+
+/*footer*/
+.foot {
+	background: #232020;
+	color: white;
+	padding: 20px;
+}
+.foot .container {
+	background: red;
+}
+.footimg h2 {
+	margin-top: 20px;
+	font-weight: bold;
+}
+.footquote {
+	padding: 0;
+}
+.footquote h2 {
+	font-weight: 100;
+	font-size: 22px;
+}
+.footquote h2 b{
+	font-weight: bold;
+	font-size: 18px;
+}
+.footquote p {
+	font-weight: 100;
+	font-size: 18px;
+	line-height: 18px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.contactfoot {
+	background: white;
+	color: #232020;
+	margin-top: 80px;
+}
+.footsosmed {
+	margin-top: 20px;
+}
+.footsosmed a i {
+	color: white;
+	margin-right: 20px;
+	font-size: 18px;
+}
+/*endfooter*/
+
+@media (min-width: 875px) and (max-width:  1900px) { 
+	.jumbnav {
+		display: none;
+	}
+	.jumb .container .bungskotak .bawah {
+		/*margin-top: -7% !important;*/
+	}
+	.text h2{
+		font-size: 38px !important;
+	}
+	.porto {
+		transform: translateY(-60%) !important;
+		display: none;
+	}
+	.bungsporto {
+		margin-top: 250px !important;
+	}
+	.portof {
+		display: flex;
+	}
+	.aboutsosmed {
+		transform: translateX(2rem);
+	}
+ }
+
+ @media (min-width: 534px) and (max-width:  875px) { 
+ 	.aboutsosmed {
+		transform: translateX(2rem);
+	}
+ 	.text {
+		text-align: center;
+		padding-bottom: 30px;
+	}
+ 	.jumbnav {
+		display: none;
+	}
+	.about .contabout{
+		flex-direction: column;
+	}
+	.contabout .abouttext {
+		text-align: center;
+	}
+	.bawah {
+		margin-top: 5% !important;
+		justify-content: center !important;
+	}
+	.porto .container {
+
+	}
+	.portof {
+		/*background: red;*/
+		flex-direction: column;
+		/*display: flex;*/
+		justify-content: center;
+	}
+ }
+
+  @media (max-width: 534px) { 
+  	.text {
+		/*text-align: center;*/
+		padding-bottom: 30px;
+	}
+.jumbnav {
+		display: none;
+	}
+  	.bawah {
+		margin-top: 5% !important;
+		justify-content: center !important;
+	}
+	.about {
+		display: inline-block !important;
+	}
+	.about .aboutsosmed {
+		flex-direction: unset;
+		justify-content: space-around;
+	}
+	.about .contabout{
+		flex-direction: column;
+	}
+	.contabout .abouttext {
+		text-align: center;
+	}
+	.text h2 {
+		font-size: 34px;
+	}
+	.porto .container {
+		flex-direction: column;
+	}
+	.bawahtexta {
+		display: none;
+	}
+	.bawahtextb {
+		display: flex !important;
+	}
+ }
+
+
